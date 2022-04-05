@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.top-container {
+    height: 510px;
+    width: 100%;
+    background-color: #EAF6F6;
+}
+
+h1 {
+    padding-top: 80px;
+    margin: auto;
+    font-family: 'Sacramento', cursive;
+
+    font-size: 5.625rem;
+    /* 16px = 100% = 1em  90/16=5.625 where em inherits the base font size from its parent it adapts according to base font size while rem neglects the  base font size of its parent & use base size of 16px  */
+    color: #66BFBF;
+
+}
+
+h3 {
+    color: #11999E;
+}
+
+h2 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.first-cloud {
+    position: absolute;
+    right: 500px;
+    top: 60px;
+
+}
+
+.second-cloud {
+
+    position: absolute;
+    left: 450px;
+    top: 190px;
+}
+
+.hill {
+    position: absolute;
+    right: 358px;
+    top: 210px;
+
+}
+
+.pro {
+    text-decoration: underline;
+
+
+}
+
+.programmer {
+
+    position: absolute;
+    left: 620px;
+    top: 160px;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+.profile-image {
+    height: 180px;
+    width: 180px;
+}
+
+.profile {
+    margin: 50px auto 50px auto;
+    width: 50%;
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    border-color: #4a4a48;
+    height: 0px;
+    width: 5%;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.banana-Skills {
+    float: left;
+    margin: auto 30px auto auto;
+}
+
+.skill-image {
+    float: right;
+    margin: auto 30px auto auto;
+}
+
+.contact-me {
+    margin: 50px auto 50px auto;
+    width: 50%;
+    line-height: 2;
+}
+
+.Get-In-Touch {
+    font-size: 2rem;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.bottom-container {
+    height: 150px;
+    width: 100%;
+    background-color:#66BFBF;
+}
+
+.footer-link {
+    color: #11999E;
+    line-height: 6;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Ending {
+    color: #EAF6F6;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
